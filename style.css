@@ -1,0 +1,52 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    
+}
+img.responsive-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+
+}
+.container {
+    padding: 20px;
+}   
